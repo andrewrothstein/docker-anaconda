@@ -11,3 +11,4 @@ RUN /miniconda/bin/conda install ipython-notebook
 RUN ansible localhost -m lineinfile -a "dest=/etc/bash.bashrc line='export PATH=/miniconda/bin:${PATH}'"
 EXPOSE 8888
 CMD /miniconda/bin/ipython notebook --ip='*'
+VOLUME /notebooks
