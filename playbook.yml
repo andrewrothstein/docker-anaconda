@@ -1,0 +1,5 @@
+---
+- hosts: localhost
+  roles:
+    - andrewrothstein.proxify
+    - { role: 'andrewrothstein.anaconda', anaconda_make_sys_default : True }
