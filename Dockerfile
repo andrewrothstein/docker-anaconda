@@ -1,4 +1,4 @@
-FROM andrewrothstein/docker-ansible:ubuntu_trusty
+FROM andrewrothstein/docker-ansible:ubuntu_xenial
 MAINTAINER "Andrew Rothstein" andrew.rothstein@gmail.com
 
 ADD requirements.yml requirements.yml

@@ -1,2 +1,2 @@
-#!/usr/bin/env bash
-docker build -t andrewrothstein/docker-anaconda:ubuntu_trusty .
+#!/usr/bin/env sh
+docker build -t andrewrothstein/docker-anaconda:ubuntu_xenial .
