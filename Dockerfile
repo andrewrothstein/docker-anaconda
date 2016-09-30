@@ -7,4 +7,5 @@ RUN ansible-galaxy install -r requirements.yml
 ADD playbook.yml playbook.yml
 RUN ansible-playbook playbook.yml
 
-CMD /opt/anaconda/bin/ipython notebook --ip='*'
+ENTRYPOINT ["/usr/local/bin/dumb-init", "-c", "--"]
+CMD ["/opt/anaconda/bin/ipython", "notebook", "--ip='*'"]
