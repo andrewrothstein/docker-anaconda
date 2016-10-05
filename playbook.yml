@@ -2,5 +2,6 @@
 - hosts: localhost
   roles:
     - andrewrothstein.proxify
+    - spk83.dumb-init
     - role: andrewrothstein.anaconda
       anaconda_make_sys_default : True

@@ -9,3 +9,5 @@ RUN ansible-playbook playbook.yml
 
 ENTRYPOINT ["/usr/local/bin/dumb-init", "-c", "--"]
 CMD ["/opt/anaconda/bin/ipython", "notebook", "--ip='*'"]
+
+EXPOSE 8888
