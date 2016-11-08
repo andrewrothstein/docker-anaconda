@@ -2,6 +2,6 @@
 - src: andrewrothstein.proxify
   version: v1.0.21
 - src: andrewrothstein.anaconda
-  version: v1.0.9
+  version: v1.0.10
 - src: spk83.dumb-init
   version: v1.0.0
