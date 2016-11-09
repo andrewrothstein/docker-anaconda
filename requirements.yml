@@ -1,7 +1,7 @@
 ---
-- src: andrewrothstein.proxify
-  version: v1.0.21
-- src: andrewrothstein.anaconda
-  version: v1.0.10
 - src: spk83.dumb-init
+  version: v1.0.0
+- src: andrewrothstein.supervisord
+  version: v1.0.5
+- src: andrewrothstein.jupyter-supervisord
   version: v1.0.0

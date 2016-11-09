@@ -8,6 +8,6 @@ COPY playbook.yml playbook.yml
 RUN ansible-playbook playbook.yml
 
 ENTRYPOINT ["/usr/local/bin/dumb-init", "-c", "--"]
-CMD ["/opt/anaconda/bin/jupyter", "notebook", "--ip='*'"]
+CMD ["/usr/local/bin/supervisord", "-c", "/etc/supervisor/supervisor.conf"]
 
 EXPOSE 8888
