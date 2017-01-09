@@ -10,4 +10,7 @@
           value: "'/'"
         - key: NotebookApp.ip
           value: "'*'"
+        - key: NotebookApp.token
+          value: "''"
+
 

@@ -7,4 +7,6 @@ WORKDIR /etc/ansible/docker-anaconda
 RUN ansible-galaxy install -r requirements.yml
 RUN ansible-playbook playbook.yml
 
+WORKDIR /root
+
 EXPOSE 8888
