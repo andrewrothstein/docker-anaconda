@@ -1,4 +1,4 @@
 docker-anaconda
 ===============
 
-Anaconda + Jupyter
+[Anaconda](https://www.continuum.io/anaconda-overview) + [Jupyter](https://jupyter.org/)
