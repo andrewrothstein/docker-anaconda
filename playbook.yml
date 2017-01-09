@@ -7,7 +7,7 @@
     - role: andrewrothstein.jupyter-supervisord
       jupyter_profile_config_options:
         - key : NotebookApp.base_url
-          value: /
+          value: "'/'"
         - key: NotebookApp.ip
           value: "'*'"
 
