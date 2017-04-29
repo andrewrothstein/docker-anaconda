@@ -1,5 +1,5 @@
 ---
 - src: andrewrothstein.anaconda
-  version: v3.0.5
+  version: v3.1.1
 - src: andrewrothstein.jupyter-supervisord
-  version: v3.1.4
+  version: v3.1.7
