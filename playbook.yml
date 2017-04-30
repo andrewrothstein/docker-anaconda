@@ -1,6 +1,7 @@
 ---
 - hosts: localhost
   roles:
+    - role: andrewrothstein.pkg-upgrade
     - role: andrewrothstein.anaconda
       anaconda_make_sys_default: True
       anaconda_cleanup: True
