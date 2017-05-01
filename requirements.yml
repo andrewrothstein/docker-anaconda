@@ -2,5 +2,3 @@
 - src: andrewrothstein.pkg-upgrade
 - src: andrewrothstein.anaconda
   version: v3.1.1
-- src: andrewrothstein.jupyter-supervisord
-  version: v3.1.7

@@ -5,13 +5,4 @@
     - role: andrewrothstein.anaconda
       anaconda_make_sys_default: True
       anaconda_cleanup: True
-    - role: andrewrothstein.jupyter-supervisord
-      jupyter_profile_config_options:
-        - key : NotebookApp.base_url
-          value: "'/'"
-        - key: NotebookApp.ip
-          value: "'*'"
-        - key: NotebookApp.token
-          value: "''"
-
 
