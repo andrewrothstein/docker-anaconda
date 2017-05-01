@@ -25,7 +25,7 @@ test:
               - >-
                 dcb
                 --snippetsdir .
-                --snippet from.j2 ansible-playbook.j2 ports.j2
+                --snippet from.j2 anaconda-playbook.j2 ports.j2
                 --upstreamgroup andrewrothstein
                 --upstreamapp docker-supervisord
                 --write ${OS}

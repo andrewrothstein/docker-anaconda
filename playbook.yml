@@ -6,7 +6,6 @@
       anaconda_make_sys_default: True
       anaconda_cleanup: True
     - role: andrewrothstein.jupyter-supervisord
-      jupyter_supervisord_environment: '{{playbook_dir}}/environment.yml'
       jupyter_profile_config_options:
         - key : NotebookApp.base_url
           value: "'/'"
