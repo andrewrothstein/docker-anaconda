@@ -1,4 +1,4 @@
 ---
 - src: andrewrothstein.pkg-upgrade
 - src: andrewrothstein.anaconda
-  version: v3.1.3
+  version: v3.1.4
